@@ -42,7 +42,7 @@
             jump: DROP
       loop: '{{ private_ip_address_range }}'
 
-- name: Update apt and install maven
+- name: Update apt packages and install maven
   hosts:
     - smart-meter
     - concentrator
